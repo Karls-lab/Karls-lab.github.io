@@ -1,0 +1,3 @@
+Notepad++ Tips and Tricks! :)
+
+Use Ctrl + h to find and replace variable names.
