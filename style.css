@@ -21,7 +21,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Palatino;
+    font-family: "Times New Roman", Times, serif;
 }
 
 h1 {
@@ -41,7 +41,7 @@ li {
     padding: 2px;
 }
 
-.first-page {
+.pageLayout {
     margin: 0;
     width: 100%;
     height: 200vh;
@@ -130,40 +130,7 @@ li {
   .sticky + .content {
     padding-top: 60px;
   }
-  
 
-@media (max-width: 800px) {
-    .navbar {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .toggle-button {
-        display: flex;
-    }
-
-    .navbar-links {
-        display: none;
-        width: 100%;
-    }
-
-    .navbar-links ul {
-        width: 100%;
-        flex-direction: column;
-    }
-
-    .navbar-links ul li {
-        text-align: center;
-    }
-
-    .navbar-links ul li a {
-        padding: .5rem 1rem;
-    }
-
-    .navbar-links.active {
-        display: flex;
-    }
-}
 
 
 .textBox {
@@ -239,4 +206,53 @@ li {
     margin: auto;
     border-radius: 5px;
   }
+
+
+
+@media (max-width: 800px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links ul li {
+        text-align: center;
+    }
+
+    .navbar-links ul li a {
+        padding: .5rem 1rem;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+
+    /* resize content boxes on a mobile screen */
+    .textBox {
+        width: 90%;
+    }
+
+    .contentBoxContainer {
+        flex-direction: column;
+        height: 200vh;
+    }
+
+    .contentBox {
+        width: 90%;
+    }
+}  
 
