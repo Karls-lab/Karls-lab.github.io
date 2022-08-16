@@ -24,7 +24,7 @@ body {
     font-family: 'Times New Roman'
 }
 
-h1 {
+h1, h2 {
     margin: 0;
     font-family: 'Monotype Corsiva', 'Apple Chancery';
 }
