@@ -21,7 +21,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Niconne', cursive;
+    font-family: 'Times New Roman'
 }
 
 h1 {
@@ -150,7 +150,6 @@ li {
     text-align: center;
     color: #005792; 
     font-size: 4rem;
-    font-family: 'Niconne', cursive;
     text-shadow: 1px 1px 0px #052939, 
     -1px 2px 0px #53C7F0;
 }
