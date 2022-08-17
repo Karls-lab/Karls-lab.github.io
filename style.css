@@ -14,6 +14,11 @@
 	background: #FAF2C3; 
 }
 
+@font-face {
+    font-family: AppleChancery;
+    src: url("media/Apple\ Chancery.ttf");
+  }
+
 * {
     box-sizing: border-box;
 }
@@ -26,7 +31,7 @@ body {
 
 h1, h2 {
     margin: 0;
-    font-family: 'Monotype Corsiva', 'Apple Chancery';
+    font-family: AppleChancery;
 }
 
 h3 {
