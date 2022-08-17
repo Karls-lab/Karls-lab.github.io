@@ -259,5 +259,14 @@ li {
     .contentBox {
         width: 90%;
     }
+
+    /* resize text so it doesn't overflow on mobile */
+    .textBox h1, h2 {
+        font-size: 3rem;
+    }
+
+    .contentBox {
+        font-size: 1rem;
+    }
 }  
 
