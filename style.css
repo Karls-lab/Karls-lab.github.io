@@ -262,20 +262,20 @@ li {
 
     /* resize text so it doesn't overflow on mobile */
     .textBox h1 {
-        font-size: 9rem;
+        font-size: 8rem;
     }
     .textBox h2 {
-        font-size: 3.5rem;
+        font-size: 3rem;
     }
 
     .contentBox {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
     .sublist {
         font-size: 1rem;
     }
     .bottomBox p {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 
 }  
