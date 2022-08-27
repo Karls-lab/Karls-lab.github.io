@@ -23,3 +23,22 @@ function myFunction() {
     navbar.classList.remove("sticky");
   }
 } 
+
+// When user clicks on various buttons, the page scrolls down to the appropriate information
+let homeButton = document.getElementById('home');
+let homePage = document.getElementById('homePage');
+homeButton.addEventListener('click', function() {
+  homePage.scrollIntoView({behavior: "smooth"});
+})
+
+let aboutButton = document.getElementById('about');
+let aboutPage = document.getElementById('aboutPage');
+aboutButton.addEventListener('click', function() {
+  aboutPage.scrollIntoView({behavior: "smooth"});
+})
+
+let contactButton = document.getElementById('contact');
+let contactBox = document.getElementsByClassName('bottomBox');
+contactButton.addEventListener('click', function() {
+  contactBox[0].scrollIntoView({behavior: "smooth"});
+})
